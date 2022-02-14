@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:student_database/functions/db_functions.dart';
 import 'package:student_database/model/student_model.dart';
-import 'package:student_database/sreens/screen_student_list.dart';
+import 'package:student_database/screens/screen_student_list.dart';
 
 class AddStudent extends StatelessWidget {
    AddStudent({ Key? key }) : super(key: key);

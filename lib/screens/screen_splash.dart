@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:student_database/sreens/screen_home.dart';
+import 'package:student_database/screens/screen_home.dart';
 
 class ScreenSplash extends StatefulWidget {
   const ScreenSplash({Key? key}) : super(key: key);

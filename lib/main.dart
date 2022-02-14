@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:student_database/model/student_model.dart';
-import 'package:student_database/sreens/screen_splash.dart';
+import 'package:student_database/screens/screen_splash.dart';
 
 Future <void> main(List<String> args)async {
   await Hive.initFlutter();
