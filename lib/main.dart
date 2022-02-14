@@ -1,14 +1,18 @@
 
 import 'package:flutter/material.dart';
-
+import 'package:hive_flutter/adapters.dart';
+import 'package:student_database/model/student_model.dart';
 import 'package:student_database/sreens/screen_splash.dart';
-main(List<String> args) {
- 
 
-  
+Future <void> main(List<String> args)async {
+  await Hive.initFlutter();
+  if(!Hive.isAdapterRegistered(StudentModelAdapter().typeId)){
+     Hive.registerAdapter(StudentModelAdapter());
+
+  }
   
 
-  runApp( const MyApp());
+  runApp(const MyApp());
 }
 class  MyApp extends StatelessWidget {
   const MyApp({ Key? key }) : super(key: key);
