@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:student_database/functions/db_functions.dart';
-import 'package:student_database/sreens/screen_add_student.dart';
-import 'package:student_database/sreens/screen_student_list.dart';
+import 'package:student_database/screens/screen_add_student.dart';
+import 'package:student_database/screens/screen_student_list.dart';
 
 class ScreenHome extends StatelessWidget {
   const ScreenHome({ Key? key }) : super(key: key);

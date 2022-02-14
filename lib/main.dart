@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:student_database/sreens/screen_splash.dart';
+import 'package:student_database/screens/screen_splash.dart';
 main(List<String> args) {
  
 
